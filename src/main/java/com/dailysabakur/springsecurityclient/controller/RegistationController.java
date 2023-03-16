@@ -53,4 +53,11 @@ public class RegistationController {
     public  String hello(){
         return "Hello Shakib";
     }
+
+    @GetMapping("/test")
+    public String test(){
+
+       return "Working";
+
+    }
 }
