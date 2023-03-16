@@ -15,7 +15,9 @@ public class webSecurityConfig {
   private static final String[] WHATLISTURL ={
           "/hello",
           "/register",
-          "/verifyRegistation"
+          "/verifyRegistation",
+          "/resendVerifyToken",
+          "/Test"
 
   };
     @Bean
